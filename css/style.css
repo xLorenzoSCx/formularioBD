@@ -1,0 +1,62 @@
+form {
+  background-color: gainsboro;
+  padding: 50px;
+  border-radius: 20px;
+  align-items: center;
+  width: 400px;
+}
+
+body {
+  text-align: center;
+  background-color: rgb(196, 196, 196);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+input {
+  padding: 1px;
+  border-radius: 10px;
+}
+
+label {
+  color: red;
+  margin-right: 5px;
+  font-style: italic;
+  font-weight: bolder;
+  background-size: 80%;
+}
+
+button {
+  background-color: rgb(255, 0, 0);
+  font-size: large;
+  font-style: italic;
+  padding: 6px;
+  border-radius: 10em;
+}
+button:hover {
+  background-color: rgb(153, 0, 0);
+  font-size: large;
+  font-style: italic;
+  padding: 6px;
+  border-radius: 10em;
+}
+
+.titulo {
+  background-color: red;
+  font-style: italic;
+  border-radius: 20px;
+}
+
+h1 {
+  align-items: center;
+  text-align: center;
+}
+@media (max-width: 600px) {
+  form {
+    background-color: burlywood;
+  }
+  body {
+    background-color: brown;
+  }
+}
